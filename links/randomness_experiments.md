@@ -36,7 +36,7 @@ It involves the following files:
 
 The following link pertains to Randomness in Model Initialization and Data Sampling Experiments.
 
-[Base-BERT Experiments](https://zenodo.org/communities/base-bert)
+[BERTology of Molecular Property Prediction (Randomness: Base-BERT)](https://doi.org/10.5281/zenodo.19023662)
 
 It involves the following files:
 
@@ -45,7 +45,6 @@ It involves the following files:
 - bertbase-ms-1234-ds-3456.tar.gz
 - bertbase-ms-2345-ds-1234.tar.gz
 - bertbase-ms-3456-ds-1234.tar.gz
-
 
 Each tar file contains all model artifacts (checkpoints, random-number generator
 states, optimizer states etc.), training logs (Tensorboard, MLFlow and Weights &
