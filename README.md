@@ -19,11 +19,10 @@ models for molecular property prediction. The key areas of investigation include
 ## Repository Structure
 
 ```
-BERTology_Github/
+bertology/
 ├── scripts/                   # Main scripts directory
 │   ├── data_scripts/          # Data processing and preparation
-│   ├── plot_scripts/          # Visualization and analysis
-│   └── training_scripts/      # Model training configurations
+│   └── plot_scripts/          # Visualization and analysis scripts
 ├── roberta_tokenizer/         # RoBERTa tokenizer training
 └── links/                     # Links to external artifacts and datasets
 ```
