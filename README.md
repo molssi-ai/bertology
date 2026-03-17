@@ -61,27 +61,7 @@ Contains scripts for processing molecular data from various sources:
   2. Tokenizer training (`pubchem_tokenizer_training.py`)
   3. Data tokenization (`pubchem_data_tokenizer.py`)
 
-### 2. Training Scripts (`scripts/training_scripts/`)
-
-Contains model training configurations and scripts:
-
-#### Pre-training (`pretrainings/`)
-- **BERT Seed Experiments** (`bert/seed-experiments/tiny/`):
-  - Multiple seed experiments for Tiny-BERT, Small-BERT, and Base-BERT
-  - Investigates randomness in model initialization and data sampling
-  - Includes configurations for different model sizes and random seeds
-  - Scripts: `train.py`, `config.yaml`, `run.sh`, `manager.sh`
-
-#### Fine-tuning (`finetunings/`)
-- **ADME Property Prediction** (`adme/`):
-  - Fine-tuning BERT models for ADME properties (HLM, SOL, hPPB)
-  - Classical ML baselines for comparison
-  - Scripts: `adme_ml_public.py`, `classic_ml_finetuners_cv.py`
-- **BERT Seed Experiments** (`bert/seed-experiments/tiny/`):
-  - Fine-tuning scripts with multiple random seeds
-  - Scripts: `finetune.py`, `modules.py`, `run.sh`
-
-### 3. Plot Scripts (`scripts/plot_scripts/`)
+### 2. Plot Scripts (`scripts/plot_scripts/`)
 
 Visualization and analysis scripts:
 
@@ -105,14 +85,16 @@ Visualization and analysis scripts:
 - Scripts: `perf_plotter.py`
 - Output: Performance plots for validation and test sets
 
-### 4. RoBERTa Tokenizer (`roberta_tokenizer/`)
+### 3. RoBERTa Tokenizer (`roberta_tokenizer/`)
 
 - Scripts for training RoBERTa-style tokenizers on molecular data
 - `roberta_tokenizer_training.py`: Trains byte-level BPE tokenizers
 
-### 5. Links (`links/`)
+### 4. Links (`links/`)
 
 - `randomness_experiments.md`: Links to external artifacts on Zenodo
+- `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects experiments
+- `std_effect_experiments.md`: Links to artifacts related to standardization noise effect experiments
 
 ## Key Experiments
 
