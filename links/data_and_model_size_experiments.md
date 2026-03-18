@@ -1,4 +1,4 @@
-# Links to Dataset and Model Size Effects Experiments' Artifacts
+# Dataset and Model Size Effects Experiments
 
 This document provides links to the artifacts generated from the dataset and
 model size effects experiments. These artifacts include datasets, models, and

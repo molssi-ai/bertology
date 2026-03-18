@@ -1,4 +1,4 @@
-# Links to Seed Experiments' Artifacts
+# Randomness in Model Initialization and Data Sampling Experiments 
 
 This document provides links to the artifacts generated from the seed
 experiments. These artifacts include datasets, models, and evaluation results
