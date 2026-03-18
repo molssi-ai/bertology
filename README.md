@@ -3,7 +3,7 @@
 **(Under Construction)**
 
 This repository provides complete access to all codebase and artifacts developed
-for the BERTology project (https://arxiv.org/abs/2603.13627), amounting to
+for the BERTology project (<https://arxiv.org/abs/2603.13627>), amounting to
 approximately 8TB. As such, we have organized the codebase and artifacts into a
 structured format, with links to external storage locations for the large
 datasets and models.
