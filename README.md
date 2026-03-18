@@ -12,21 +12,24 @@ datasets and models.
 
 The BERTology project focuses on understanding the impacts of various factors on
 the pre-training and fine-tuning performance of BERT-based chemical language
-models for molecular property prediction. These factors include training data size, model size, tokenization algorithms, standardization noise, and randomness in model initialization and data sampling.
+models for molecular property prediction. These factors include training data
+size, model size, tokenization algorithms, standardization noise, and randomness
+in model initialization and data sampling.
 
 ## Repository Structure
 
 The repository is organized into several main components, including data
 processing scripts, visualization scripts for analyzing experimental results,
-and links to external artifacts such as datasets, training logs, pre-training
-and fine-tuning scripts, model artifacts, and evaluation results.
+training scripts for tokenizers, workflow diagrams, and links to external
+artifacts such as datasets, training logs, model artifacts, and evaluation
+results.
 
 ```
 bertology/
 ├── scripts/                   # Main scripts directory
 │   ├── data_scripts/          # Data processing and preparation
 │   └── plot_scripts/          # Visualization and analysis scripts
-├── roberta_tokenizer/         # RoBERTa tokenizer training
+├── drawio/                    # Workflow diagrams
 └── links/                     # Links to external artifacts and datasets
 ```
 
@@ -59,13 +62,19 @@ Contains scripts for processing molecular data from various sources:
   - `pubchem-04-18-2025.py`: Dataset loader script for Hugging Face
   - `upload_data.sh`: Upload script for Hugging Face Hub
 
-#### PubChem Preprocessing (`pubchem-preprocessing/`)
+#### PubChem Preprocessing - WordPiece (`pubchem-preprocessing/`)
 
-- **Purpose**: Extract SMILES, train tokenizers, and tokenize molecular data
+- **Purpose**: Extract SMILES, train WordPiece tokenizers, and tokenize molecular data
 - **Pipeline**:
   1. SMILES extraction (`pubchem_cismi_writer.py`)
   2. Tokenizer training (`pubchem_tokenizer_training.py`)
   3. Data tokenization (`pubchem_data_tokenizer.py`)
+
+#### PubChem Preprocessing - BPE (`pubchem-preprocessing-bpe/`)
+
+- **Purpose**: Train Byte Pair Encoding (BPE) tokenizer for molecular data
+- **Scripts**:
+  - `bpe_tokenizer_training.py`: Trains BPE tokenizer on SMILES data
 
 ### 2. Plot Scripts (`scripts/plot_scripts/`)
 
@@ -74,16 +83,16 @@ Visualization and analysis scripts:
 #### Pre-training Plots (`pretraining/`)
 
 - **Dataset Size Effect** (`dataset_size_effect/`):
-  - Analyzes impact of training data size on model performance
+  - Analyzes impact of training data and model sizes on model performance
   - Generates loss and performance plots
-  - Scripts: `loss_plotter.py`, `perf_plotter.py`, `perf_plotter2.py`
-  - Output: PDF plots and Excel spreadsheets with results
+  - Scripts:`perf_plotter.py`
+  - Output: PDF plots
 
 - **Standardization Noise Effect** (`std_effect/`):
   - Investigates the impact of standardization on model training
   - Generates heatmaps for different metrics (accuracy, perplexity, loss, F1)
   - Analyzes data corruption effects across Tiny, Small, and Base BERT models
-  - Scripts: `loss_plotter.py`, `perf_plotter.py`
+  - Scripts: `perf_plotter.py`
   - Output: Multiple heatmap PDFs and performance plots
 
 #### Fine-tuning Plots (`finetuning/`)
@@ -93,21 +102,29 @@ Visualization and analysis scripts:
 - Scripts: `perf_plotter.py`
 - Output: Performance plots for validation and test sets
 
-### 3. Links (`links/`)
+### 3. Workflow Diagrams (`drawio/`)
 
-- `randomness_experiments.md`: Links to external artifacts on Zenodo
-- `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects experiments
-- `std_effect_experiments.md`: Links to artifacts related to standardization noise effect experiments
+Visual representations of data processing and standardization workflows:
+
+- `chembl_std.drawio`: ChEMBL standardization pipeline
+- `pubchem_std.drawio`: PubChem standardization workflow
+- `data_corruption.drawio`: Data corruption and noise analysis
+
+### 4. Links (`links/`)
+
+- `randomness_experiments.md`: Links to external artifacts on Zenodo for randomness studies
+- `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects
+- `standardization_experiments.md`: Links to artifacts related to standardization noise effect experiments
+- `tokenization_experiments.md`: Links to tokenization comparison experiments (WordPiece vs BPE)
 
 ## Key Experiments
 
 ### 1. Randomness Experiments
 
-- Multiple training runs with different random seeds for model initialization
-- Multiple data sampling configurations
+- Multiple training runs with different random seeds for model initialization and data sampling
 - Model sizes: Tiny-BERT, Small-BERT, Base-BERT
 
-### 2. Dataset Size Effect
+### 2. Dataset and Model Size Effects
 
 - Investigates performance as a function of pre-training data size
 - Both pre-training and fine-tuning performance metrics
@@ -118,10 +135,17 @@ Visualization and analysis scripts:
 - Analyzes data corruption effects on model performance
 - Generates comprehensive heatmaps for various metrics
 
-### 4. ADME Property Prediction
+### 4. Tokenization Comparison
+
+- Compares WordPiece vs Byte Pair Encoding (BPE) tokenization
+- Impact on model performance and training efficiency
+
+### 5. ADME Property Prediction
 
 - Fine-tuning experiments for practical molecular property prediction
-- Properties: HLM (Human Liver Microsomes), SOL (Solubility), hPPB (human Plasma Protein Binding)
+- 3-fold cross-validation and hyperparameter search for optimal performance
+- Properties: HLM (Human Liver Microsomes), RLM (rat Liver Microsomes), rPPB
+  (rat Plasma Protein Binding), hPPB (human Plasma Protein Binding), SOL (solubility at pH 6.8) and MDR1-ER (MDR1-MDCK efflux ratio)
 - Classical ML baselines for comparison
 
 ## Data Sources
@@ -138,12 +162,13 @@ Visualization and analysis scripts:
 
 - Python 3.x
 - PyTorch
-- Hugging Face Transformers
+- Hugging Face Transformers and Tokenizers
 - RDKit
 - OpenEye toolkit (for SDF processing)
 - Dask (for parallel processing)
 - ChEMBL Structure Pipeline
 - Hydra (for configuration management)
+- Draw.io (optional, for viewing workflow diagrams)
 
 ## Citation
 
@@ -170,3 +195,8 @@ Please refer to individual dataset and software licenses for usage terms.
 ## Contact
 
 For questions or issues, please open an issue on the repository.
+
+## Author
+
+Mohammad Mostafanejad
+March 2026
