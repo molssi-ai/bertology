@@ -1,22 +1,25 @@
 # BERTology: Molecular Property Prediction
+
 **(Under Construction)**
 
-This repository contains the complete codebase and artifacts for the BERTology project, which investigates the application of BERT models to molecular property prediction using SMILES representations.
-
-**Preprint**: https://arxiv.org/abs/2603.13627
+This repository provides complete access to all codebase and artifacts developed
+for the BERTology project (https://arxiv.org/abs/2603.13627), amounting to
+approximately 8TB. As such, we have organized the codebase and artifacts into a
+structured format, with links to external storage locations for the large
+datasets and models.
 
 ## Overview
 
-This project focuses on understanding the impacts of various scaling factors on
+The BERTology project focuses on understanding the impacts of various factors on
 the pre-training and fine-tuning performance of BERT-based chemical language
-models for molecular property prediction. The key areas of investigation include:
-- Pre-training BERT models on large-scale chemical datasets (PubChem)
-- Fine-tuning for downstream ADME (Absorption, Distribution, Metabolism, and Excretion) property prediction
-- Investigating the effects of dataset and model sizes on model performance
-- Analyzing the impact of randomness in model initialization and data sampling
-- Studying the effects of standardization noise on the pre-training performance
+models for molecular property prediction. These factors include training data size, model size, tokenization algorithms, standardization noise, and randomness in model initialization and data sampling.
 
 ## Repository Structure
+
+The repository is organized into several main components, including data
+processing scripts, visualization scripts for analyzing experimental results,
+and links to external artifacts such as datasets, training logs, pre-training
+and fine-tuning scripts, model artifacts, and evaluation results.
 
 ```
 bertology/
@@ -34,6 +37,7 @@ bertology/
 Contains scripts for processing molecular data from various sources:
 
 #### ChEMBL Standardizer (`chembl-standardizer/`)
+
 - **Purpose**: Standardize SMILES strings using the ChEMBL Structure Pipeline
 - **Pipeline**:
   1. Data cleaning (`pubchem04182025_cleaner.py`)
@@ -41,12 +45,14 @@ Contains scripts for processing molecular data from various sources:
   3. WordPiece tokenization (`wordpiece_tokenization_on_chembl_smiles.py`)
 
 #### PubChem Generation (`pubchem-generation/`)
+
 - **Purpose**: Download and convert PubChem compound data from FTP to JSON format
 - **Scripts**:
   - `ftp_sdf_downloader.py`: Downloads SDF files from PubChem FTP server
   - `dask_runner_json.py`: Converts SDF files to JSON using Dask for parallel processing
 
 #### PubChem Hugging Face (`pubchem-huggingface/`)
+
 - **Purpose**: Prepare and upload PubChem dataset to Hugging Face Hub
 - **Dataset**: `molssiai-hub/pubchem-04-18-2025`
 - **Scripts**:
@@ -54,6 +60,7 @@ Contains scripts for processing molecular data from various sources:
   - `upload_data.sh`: Upload script for Hugging Face Hub
 
 #### PubChem Preprocessing (`pubchem-preprocessing/`)
+
 - **Purpose**: Extract SMILES, train tokenizers, and tokenize molecular data
 - **Pipeline**:
   1. SMILES extraction (`pubchem_cismi_writer.py`)
@@ -65,6 +72,7 @@ Contains scripts for processing molecular data from various sources:
 Visualization and analysis scripts:
 
 #### Pre-training Plots (`pretraining/`)
+
 - **Dataset Size Effect** (`dataset_size_effect/`):
   - Analyzes impact of training data size on model performance
   - Generates loss and performance plots
@@ -79,17 +87,13 @@ Visualization and analysis scripts:
   - Output: Multiple heatmap PDFs and performance plots
 
 #### Fine-tuning Plots (`finetuning/`)
+
 - Performance visualization for fine-tuned models
 - ADME property prediction analysis
 - Scripts: `perf_plotter.py`
 - Output: Performance plots for validation and test sets
 
-### 3. RoBERTa Tokenizer (`roberta_tokenizer/`)
-
-- Scripts for training RoBERTa-style tokenizers on molecular data
-- `roberta_tokenizer_training.py`: Trains byte-level BPE tokenizers
-
-### 4. Links (`links/`)
+### 3. Links (`links/`)
 
 - `randomness_experiments.md`: Links to external artifacts on Zenodo
 - `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects experiments
@@ -98,20 +102,24 @@ Visualization and analysis scripts:
 ## Key Experiments
 
 ### 1. Randomness Experiments
+
 - Multiple training runs with different random seeds for model initialization
 - Multiple data sampling configurations
 - Model sizes: Tiny-BERT, Small-BERT, Base-BERT
 
 ### 2. Dataset Size Effect
+
 - Investigates performance as a function of pre-training data size
 - Both pre-training and fine-tuning performance metrics
 
 ### 3. Standardization Noise Effect
+
 - Studies the impact of standardization on model training
 - Analyzes data corruption effects on model performance
 - Generates comprehensive heatmaps for various metrics
 
 ### 4. ADME Property Prediction
+
 - Fine-tuning experiments for practical molecular property prediction
 - Properties: HLM (Human Liver Microsomes), SOL (Solubility), hPPB (human Plasma Protein Binding)
 - Classical ML baselines for comparison
@@ -145,7 +153,7 @@ https://arxiv.org/abs/2603.13627
 
 ```
 @misc{mostafanejad:2026:bertology,
-      title={BERTology of Molecular Property Prediction}, 
+      title={BERTology of Molecular Property Prediction},
       author={Mohammad Mostafanejad and Paul Saxe and T. Daniel Crawford},
       year={2026},
       eprint={2603.13627},
