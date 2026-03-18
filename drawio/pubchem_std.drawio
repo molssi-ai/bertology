@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="29.6.1">
+  <diagram name="Page-1" id="CX-ntpVjj2SlzWEU5SLU">
+    <mxGraphModel dx="1433" dy="814" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0" adaptiveColors="simple">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=8 8;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="251" y="185" />
+            </Array>
+            <mxPoint x="171" y="185" as="sourcePoint" />
+            <mxPoint x="251" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-49" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=27.25;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-2" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Pre-processing&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="49" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-3" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;Unification of hydrogen representations using a simple valence model from&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;OpenEye&#39;s OEChem Toolkit&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-11" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.991;entryY=0.354;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;entryPerimeter=0;" target="uVjwXiKD4wvXccyqM8OT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-17" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Verify Element&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-8" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Checking the validity of the provided element and isotopic information&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-21" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-14" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;b&gt;Verify Hydrogen&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="352.5" as="sourcePoint" />
+            <mxPoint x="251" y="352.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-16" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Updating the number of implicit hydrogen atom counts as necessary&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-25" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-18" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Verify&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Functional Groups&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="397" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="432.5" as="sourcePoint" />
+            <mxPoint x="251" y="432.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-20" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;Converting a set of functional group representations to their preferred form&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;using a template library&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-29" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-22" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Verify &lt;/b&gt;&lt;b&gt;Valence&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="513.5" as="sourcePoint" />
+            <mxPoint x="251" y="513.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-24" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;Evaluating the atomic connectivity and charges using an internal table &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;of allowed configurations&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-33" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-26" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Standardize&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Annotations&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="592.5" as="sourcePoint" />
+            <mxPoint x="251" y="592.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-28" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Removing perceived PubChem-specific bond-type annotations&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-37" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-30" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Standardize Valence Bond Form&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="673.5" as="sourcePoint" />
+            <mxPoint x="251" y="673.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-32" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Generating a canonical tautomer representation of the structure&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-44" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;snapToPoint=0;" target="uVjwXiKD4wvXccyqM8OT-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-34" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Standardize&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Aromaticity&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="719" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-35" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="753.5" as="sourcePoint" />
+            <mxPoint x="251" y="753.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-36" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Determining a canonical Kekulé representation of the structure&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-41" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Generating a canonical representation of the annotated stereochemistry&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-42" parent="1" style="html=1;dashed=0;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Standardize&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Stereochemistry&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-43" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="834.5" as="sourcePoint" />
+            <mxPoint x="251" y="834.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-46" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startFill=0;endArrow=none;sketch=1;curveFitting=1;jiggle=2;snapToPoint=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="913.5" as="sourcePoint" />
+            <mxPoint x="251" y="913.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uVjwXiKD4wvXccyqM8OT-47" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillStyle=solid;shadow=0;sketch=1;curveFitting=1;jiggle=2;fontSize=14;snapToPoint=0;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Converting the implicit hydrogen atoms to their explicit counterparts&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="550" x="251" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="zC2fI4OxRYFJDNAWR-h3-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;rounded=0;fillStyle=solid;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=14;fillColor=#dae8fc;" value="&lt;div&gt;&lt;b&gt;Standardize&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Explicit Hydrogens&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="115" x="51" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="zC2fI4OxRYFJDNAWR-h3-5" edge="1" parent="1" source="uVjwXiKD4wvXccyqM8OT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-27.25;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="zC2fI4OxRYFJDNAWR-h3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
