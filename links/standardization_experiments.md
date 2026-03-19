@@ -26,53 +26,72 @@ Base-BERT (Part 3) includes the following files:
 
 - base-binidx-0-ms-2345-ds-1234-crpt-00.tar.gz
 
-[BERTology of Molecular Property Prediction (Data Size Effect: Base-BERT, Part 4)]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 4)](https://doi.org/10.5281/zenodo.19111861)
 
 Base-BERT (Part 4) includes the following files:
 
-- base-binidx-4-ms-1234-ds-1234.tar.gz
-- base-binidx-4-ms-1234-ds-2345.tar.gz
-- base-binidx-4-ms-2345-ds-1234.tar.gz
+- base-binidx-0-ms-1234-ds-1234-crpt-05.tar.gz
+- base-binidx-0-ms-1234-ds-2345-crpt-05.tar.gz
+- base-binidx-0-ms-2345-ds-1234-crpt-05.tar.gz
 
-[BERTology of Molecular Property Prediction (Data Size Effect: Base-BERT, Part 5]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 5)](https://doi.org/10.5281/zenodo.19113142)
 
 Base-BERT (Part 5) includes the following files:
 
-- base-binidx-5-ms-1234-ds-1234.t5r.gz
-- base-binidx-5-ms-1234-ds-2345.tar.gz
-- base-binidx-5-ms-2345-ds-1234.tar.gz
+- base-binidx-0-ms-1234-ds-1234-crpt-10.tar.gz
+- base-binidx-0-ms-1234-ds-2345-crpt-10.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 6)]()
+
+Base-BERT (Part 6) includes the following files:
+
+- base-binidx-0-ms-2345-ds-1234-crpt-10.tar.gz
 
 ## Small-BERT Experiments
 
 The following links pertain to Standardization Noise Effect Experiments:
 
-[BERTology of Molecular Property Prediction (Data Size Effect: Small-BERT, Part 1)]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Small-BERT, Part 1)](https://doi.org/10.5281/zenodo.19115292)
 
 Small-BERT (Part 1) includes the following files:
 
-- small-binidx-0-ms-1234-ds-1234.tar.gz
-- small-binidx-0-ms-1234-ds-2345.tar.gz
-- small-binidx-0-ms-2345-ds-1234.tar.gz
-- small-binidx-1-ms-1234-ds-1234.tar.gz
-- small-binidx-1-ms-1234-ds-2345.tar.gz
-- small-binidx-1-ms-2345-ds-1234.tar.gz
-- small-binidx-2-ms-1234-ds-1234.tar.gz
-- small-binidx-2-ms-1234-ds-2345.tar.gz
-- small-binidx-2-ms-2345-ds-1234.tar.gz
-- small-binidx-3-ms-1234-ds-1234.tar.gz
-- small-binidx-3-ms-1234-ds-2345.tar.gz
-- small-binidx-3-ms-2345-ds-1234.tar.gz
+- small-binidx-0-ms-1234-ds-1234-crpt-00.tar.gz
+- small-binidx-0-ms-1234-ds-2345-crpt-00.tar.gz
+- small-binidx-0-ms-2345-ds-1234-crpt-00.tar.gz
+- small-binidx-0-ms-1234-ds-1234-crpt-05.tar.gz
+- small-binidx-0-ms-1234-ds-2345-crpt-05.tar.gz
+- small-binidx-0-ms-2345-ds-1234-crpt-05.tar.gz
+- small-binidx-0-ms-1234-ds-1234-crpt-10.tar.gz
+- small-binidx-0-ms-1234-ds-2345-crpt-10.tar.gz
+- small-binidx-0-ms-2345-ds-1234-crpt-10.tar.gz
 
-[BERTology of Molecular Property Prediction (Data Size Effect: Small-BERT, Part 2)]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Small-BERT, Part 2)](https://doi.org/10.5281/zenodo.19116186)
 
 Small-BERT (Part 2) includes the following files:
 
-- small-binidx-4-ms-1234-ds-1234.tar.gz
-- small-binidx-4-ms-1234-ds-2345.tar.gz
-- small-binidx-4-ms-2345-ds-1234.tar.gz
-- small-binidx-5-ms-1234-ds-1234.tar.gz
-- small-binidx-5-ms-1234-ds-2345.tar.gz
-- small-binidx-5-ms-2345-ds-1234.tar.gz
+- small-binidx-3-ms-1234-ds-1234-crpt-00.tar.gz
+- small-binidx-3-ms-1234-ds-2345-crpt-00.tar.gz
+- small-binidx-3-ms-2345-ds-1234-crpt-00.tar.gz
+- small-binidx-3-ms-1234-ds-1234-crpt-05.tar.gz
+- small-binidx-3-ms-1234-ds-2345-crpt-05.tar.gz
+- small-binidx-3-ms-2345-ds-1234-crpt-05.tar.gz
+- small-binidx-3-ms-1234-ds-1234-crpt-10.tar.gz
+- small-binidx-3-ms-1234-ds-2345-crpt-10.tar.gz
+- small-binidx-3-ms-2345-ds-1234-crpt-10.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Small-BERT, Part 3)](https://doi.org/10.5281/zenodo.19116243)
+
+Small-BERT (Part 3) includes the following files:
+
+- small-binidx-5-ms-1234-ds-1234-crpt-00.tar.gz
+- small-binidx-5-ms-1234-ds-2345-crpt-00.tar.gz
+- small-binidx-5-ms-2345-ds-1234-crpt-00.tar.gz
+- small-binidx-5-ms-1234-ds-1234-crpt-05.tar.gz
+- small-binidx-5-ms-1234-ds-2345-crpt-05.tar.gz
+- small-binidx-5-ms-2345-ds-1234-crpt-05.tar.gz
+- small-binidx-5-ms-1234-ds-1234-crpt-10.tar.gz
+- small-binidx-5-ms-1234-ds-2345-crpt-10.tar.gz
+- small-binidx-5-ms-2345-ds-1234-crpt-10.tar.gz
 
 ## Tiny-BERT Experiments
 
