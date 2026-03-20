@@ -41,11 +41,39 @@ Base-BERT (Part 5) includes the following files:
 - base-binidx-0-ms-1234-ds-1234-crpt-10.tar.gz
 - base-binidx-0-ms-1234-ds-2345-crpt-10.tar.gz
 
-[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 6)]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 6)](https://doi.org/10.5281/zenodo.19114785)
 
 Base-BERT (Part 6) includes the following files:
 
-- base-binidx-0-ms-2345-ds-1234-crpt-10.tar.gz
+- base-binidx-0-ms-1234-ds-1234-crpt-10.tar.gz
+- base-binidx-3-ms-2345-ds-1234-crpt-00.tar.gz
+- base-binidx-3-ms-1234-ds-1234-crpt-00.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 7)](https://doi.org/10.5281/zenodo.19134643)
+
+Base-BERT (Part 7) includes the following files:
+
+- base-binidx-3-ms-2345-ds-1234-crpt-05.tar.gz
+- base-binidx-3-ms-2345-ds-1234-crpt-10.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 8)](https://doi.org/10.5281/zenodo.19135366)
+
+Base-BERT (Part 8) includes the following files:
+
+- base-binidx-3-ms-1234-ds-1234-crpt-10.tar.gz
+- base-binidx-3-ms-1234-ds-2345-crpt-10.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 9)](https://doi.org/10.5281/zenodo.19136615)
+
+Base-BERT (Part 9) includes the following file:
+
+- base-binidx-3-ms-1234-ds-1234-crpt-05.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 10)]()
+
+Base-BERT (Part 10) includes the following file:
+
+- base-binidx-3-ms-1234-ds-2345-crpt-00.tar.gz
 
 ## Small-BERT Experiments
 
