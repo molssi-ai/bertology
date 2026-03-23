@@ -1,14 +1,14 @@
-# Tokenization Experiments
+# Supervised Finetuning Experiments
 
-This document provides links to the artifacts generated from the tokenization
-experiments. These artifacts include datasets, models, and evaluation results
-that were produced during the experimentation phase.
+This document provides links to the artifacts generated from the supervised
+finetuning experiments. These artifacts include datasets, models, and evaluation
+results that were produced during the experimentation phase.
 
-## Tokenization Experiments Artifacts
+## Supervised Finetuning Experiments Artifacts
 
-The following link pertains to Tokenization Experiments:
+The following link pertains to Supervised Finetuning Experiments:
 
-[BERTology of Molecular Property Prediction (Tokenization Effect)](https://doi.org/10.5281/zenodo.19074661)
+[BERTology of Molecular Property Prediction (Supervised Finetuning Experiments)](https://doi.org/10.5281/zenodo.19074661)
 
 It involves the following files:
 

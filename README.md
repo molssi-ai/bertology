@@ -1,4 +1,4 @@
-# BERTology: Molecular Property Prediction
+# BERTology of Molecular Property Prediction
 
 **(Under Construction)**
 
@@ -192,11 +192,21 @@ https://arxiv.org/abs/2603.13627
 
 Please refer to individual dataset and software licenses for usage terms.
 
+## Contributing
+
+Before opening an issue, please check the existing issues to see if your
+question has already been addressed. Otherwise, we recommend reaching out via
+opening a discussion in the repository or contacting the author directly. 
+
+Pull requests are welcome, but please ensure that they are minimalist, clear and
+tested.
+
 ## Contact
 
-For questions or issues, please open an issue on the repository.
+For inquires or comments about the codebase, models or datasets, please contact
+the author at `smostafanejad[at]vt.edu`.
 
 ## Author
 
-Mohammad Mostafanejad
-March 2026
+Mohammad Mostafanejad  
+Date: August 2025
