@@ -10,19 +10,19 @@ The following links pertain to Standardization Noise Effect Experiments:
 
 [BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 1)](https://doi.org/10.5281/zenodo.19076095)
 
-Base-BERT (Part 1) includes the following files:
+Base-BERT (Part 1) includes the following file:
 
 - base-binidx-0-ms-1234-ds-1234-crpt-00.tar.gz
 
 [BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 2)](https://doi.org/10.5281/zenodo.19098746)
 
-Base-BERT (Part 2) includes the following files:
+Base-BERT (Part 2) includes the following file:
 
 - base-binidx-0-ms-1234-ds-2345-crpt-00.tar.gz
 
 [BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 3)](https://doi.org/10.5281/zenodo.19096414)
 
-Base-BERT (Part 3) includes the following files:
+Base-BERT (Part 3) includes the following file:
 
 - base-binidx-0-ms-2345-ds-1234-crpt-00.tar.gz
 
@@ -69,11 +69,30 @@ Base-BERT (Part 9) includes the following file:
 
 - base-binidx-3-ms-1234-ds-1234-crpt-05.tar.gz
 
-[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 10)]()
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 10)](https://doi.org/10.5281/zenodo.19138020)
 
-Base-BERT (Part 10) includes the following file:
+Base-BERT (Part 10) includes the following files:
 
 - base-binidx-3-ms-1234-ds-2345-crpt-00.tar.gz
+- base-binidx-3-ms-1234-ds-2345-crpt-05.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 11)](https://doi.org/10.5281/zenodo.19141543)
+
+Base-BERT (Part 11) includes the following files:
+
+- base-binidx-5-ms-2345-ds-1234-crpt-10.tar.gz
+- base-binidx-5-ms-1234-ds-2345-crpt-10.tar.gz
+
+[BERTology of Molecular Property Prediction (Standardization Effect: Base-BERT, Part 12)](https://doi.org/10.5281/zenodo.19162491)
+
+Base-BERT (Part 12) includes the following files:
+
+- base-binidx-5-ms-2345-ds-1234-crpt-05.tar.gz
+- base-binidx-5-ms-1234-ds-2345-crpt-05.tar.gz
+- base-binidx-5-ms-1234-ds-1234-crpt-05.tar.gz
+- base-binidx-5-ms-1234-ds-1234-crpt-00.tar.gz
+- base-binidx-5-ms-1234-ds-2345-crpt-00.tar.gz
+- base-binidx-5-ms-2345-ds-1234-crpt-00.tar.gz
 
 ## Small-BERT Experiments
 
