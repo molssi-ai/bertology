@@ -44,6 +44,29 @@ It involves the following files:
 - SOL-fold1-small-binidx-0-ms-1234-ds-1234.tar.gz
 - SOL-fold2-small-binidx-0-ms-1234-ds-1234.tar.gz
 
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 4)](https://doi.org/10.5281/zenodo.19238294)
+
+It involves the following files:
+
+- HLM-fold0-small-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 5)](https://doi.org/10.5281/zenodo.19239391)
+
+It involves the following files:
+
+- hPPB-fold0-small-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 6)]()
+
+It involves the following files:
+
+- SOL-fold0-small-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
 
 The tar file contains all model artifacts (checkpoints, random-number generator
 states, optimizer states etc.), training logs (Tensorboard, MLFlow and Weights &
