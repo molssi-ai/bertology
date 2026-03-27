@@ -8,15 +8,15 @@ that were produced during the experimentation phase.
 
 The following link pertains to Randomness in Model Initialization and Data Sampling Experiments.
 
-[BERTology of Molecular Property Prediction (Randomness: Tiny-BERT)](https://doi.org/10.5281/zenodo.18961055)
+[BERTology of Molecular Property Prediction (Randomness: Base-BERT)](https://doi.org/10.5281/zenodo.19023662)
 
 It involves the following files:
 
-- berttiny-ms-1234-ds-1234.tar.gz
-- berttiny-ms-1234-ds-2345.tar.gz
-- berttiny-ms-1234-ds-3456.tar.gz
-- berttiny-ms-2345-ds-1234.tar.gz
-- berttiny-ms-3456-ds-1234.tar.gz
+- bertbase-ms-1234-ds-1234.tar.gz
+- bertbase-ms-1234-ds-2345.tar.gz
+- bertbase-ms-1234-ds-3456.tar.gz
+- bertbase-ms-2345-ds-1234.tar.gz
+- bertbase-ms-3456-ds-1234.tar.gz
 
 ## Small-BERT Experiments
 
@@ -32,19 +32,19 @@ It involves the following files:
 - bertsmall-ms-2345-ds-1234.tar.gz
 - bertsmall-ms-3456-ds-1234.tar.gz
 
-## Base-BERT Experiments
+## Tiny-BERT Experiments
 
 The following link pertains to Randomness in Model Initialization and Data Sampling Experiments.
 
-[BERTology of Molecular Property Prediction (Randomness: Base-BERT)](https://doi.org/10.5281/zenodo.19023662)
+[BERTology of Molecular Property Prediction (Randomness: Tiny-BERT)](https://doi.org/10.5281/zenodo.18961055)
 
 It involves the following files:
 
-- bertbase-ms-1234-ds-1234.tar.gz
-- bertbase-ms-1234-ds-2345.tar.gz
-- bertbase-ms-1234-ds-3456.tar.gz
-- bertbase-ms-2345-ds-1234.tar.gz
-- bertbase-ms-3456-ds-1234.tar.gz
+- berttiny-ms-1234-ds-1234.tar.gz
+- berttiny-ms-1234-ds-2345.tar.gz
+- berttiny-ms-1234-ds-3456.tar.gz
+- berttiny-ms-2345-ds-1234.tar.gz
+- berttiny-ms-3456-ds-1234.tar.gz
 
 Each tar file contains all model artifacts (checkpoints, random-number generator
 states, optimizer states etc.), training logs (Tensorboard, MLFlow and Weights &

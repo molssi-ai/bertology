@@ -60,13 +60,88 @@ It involves the following files:
 - hPPB-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
 - hPPB-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
 
-[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 6)]()
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 6)](https://doi.org/10.5281/zenodo.19239616)
 
 It involves the following files:
 
 - SOL-fold0-small-binidx-3-ms-1234-ds-1234.tar.gz
 - SOL-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
 - SOL-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 7)]()
+
+It involves the following files:
+
+- HLM-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 8)]()
+
+It involves the following files:
+
+- hPPB-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 9)]()
+
+It involves the following files:
+
+- SOL-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+## Tiny-BERT
+
+The following link pertains to Supervised Finetuning Experiments involving
+Tiny-BERT:
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Tiny-BERT, Part 1)](https://doi.org/10.5281/zenodo.19260696)
+
+It involves the following files:
+
+- HLM-fold0-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- HLM-fold1-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- HLM-fold2-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- hPPB-fold0-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- SOL-fold0-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- SOL-fold1-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- SOL-fold2-tiny-binidx-0-ms-1234-ds-1234.tar.gz
+- HLM-fold0-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold1-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold2-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold0-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold0-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold1-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold2-tiny-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Tiny-BERT, Part 2)](https://doi.org/10.5281/zenodo.19262919)
+
+It involves the following files:
+
+- RLM-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold2-tiny-binidx-5-ms-1234-ds-1234.tar.gz
 
 The tar file contains all model artifacts (checkpoints, random-number generator
 states, optimizer states etc.), training logs (Tensorboard, MLFlow and Weights &
