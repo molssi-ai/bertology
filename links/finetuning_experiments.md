@@ -68,7 +68,7 @@ It involves the following files:
 - SOL-fold1-small-binidx-3-ms-1234-ds-1234.tar.gz
 - SOL-fold2-small-binidx-3-ms-1234-ds-1234.tar.gz
 
-[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 7)]()
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 7)](https://doi.org/10.5281/zenodo.19338525)
 
 It involves the following files:
 
@@ -76,7 +76,7 @@ It involves the following files:
 - HLM-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
 - HLM-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
 
-[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 8)]()
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 8)](https://doi.org/10.5281/zenodo.19339892)
 
 It involves the following files:
 
