@@ -84,13 +84,37 @@ It involves the following files:
 - hPPB-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
 - hPPB-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
 
-[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 9)]()
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 9)](https://doi.org/10.5281/zenodo.19353471)
 
 It involves the following files:
 
 - SOL-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
 - SOL-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
 - SOL-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 10)](https://doi.org/10.5281/zenodo.19354810)
+
+It involves the following files:
+
+- rPPB-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 11)](https://doi.org/10.5281/zenodo.19355237)
+
+It involves the following files:
+
+- RLM-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Small-BERT, Part 12)](https://doi.org/10.5281/zenodo.19357245)
+
+It involves the following files:
+
+- MDR1_ER-fold0-small-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold1-small-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold2-small-binidx-5-ms-1234-ds-1234.tar.gz
 
 ## Tiny-BERT
 
