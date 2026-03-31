@@ -116,6 +116,9 @@ Visual representations of data processing and standardization workflows:
 - `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects
 - `standardization_experiments.md`: Links to artifacts related to standardization noise effect experiments
 - `tokenization_experiments.md`: Links to tokenization comparison experiments (WordPiece vs BPE)
+- `finetuning_experiments.md`: Links to artifacts related to supervised
+  finetuning experiments for ADME property prediction, including classical ML
+  baselines and BERT models.
 
 ## Key Experiments
 
