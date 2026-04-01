@@ -199,7 +199,7 @@ It involves the following files:
 
 [BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Tiny-BERT, Part 2)](https://doi.org/10.5281/zenodo.19262919)
 
-It involves the following files:
+It involves the following file:
 
 - RLM-fold0-tiny-binidx-5-ms-1234-ds-1234.tar.gz
 - RLM-fold1-tiny-binidx-5-ms-1234-ds-1234.tar.gz
