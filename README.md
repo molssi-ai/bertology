@@ -119,6 +119,9 @@ Visual representations of data processing and standardization workflows:
 - `finetuning_experiments.md`: Links to artifacts related to supervised
   finetuning experiments for ADME property prediction, including classical ML
   baselines and BERT models.
+- `refitting_and_testing_experiments.md`: Links to artifacts generated from
+  refitting and testing experiments, including models and testing results for
+  Base-BERT, Small-BERT, and Tiny-BERT.
 
 ## Key Experiments
 
