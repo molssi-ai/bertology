@@ -15,6 +15,50 @@ It involves the following file:
 
 - adme.tar.gz
 
+## Base-BERT
+
+The following link pertains to Supervised Finetuning Experiments involving
+Base-BERT:
+
+[BERTology of Molecular Property Prediction (Cross-validated Hyperparameter Search: Base-BERT)](https://doi.org/10.5281/zenodo.19371493)
+
+- HLM-fold0-base-binidx-0-ms-1234-ds-2345.tar.gz
+- HLM-fold0-base-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold1-base-binidx-0-ms-1234-ds-2345.tar.gz
+- HLM-fold1-base-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- HLM-fold2-base-binidx-0-ms-1234-ds-2345.tar.gz
+- HLM-fold2-base-binidx-3-ms-1234-ds-1234.tar.gz
+- HLM-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold0-base-binidx-0-ms-1234-ds-2345.tar.gz
+- hPPB-fold0-base-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-base-binidx-0-ms-1234-ds-2345.tar.gz
+- hPPB-fold1-base-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-base-binidx-0-ms-1234-ds-2345.tar.gz
+- hPPB-fold2-base-binidx-3-ms-1234-ds-1234.tar.gz
+- hPPB-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- MDR1_ER-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- RLM-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- rPPB-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold0-base-binidx-0-ms-1234-ds-2345.tar.gz
+- SOL-fold0-base-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold0-base-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold1-base-binidx-0-ms-1234-ds-2345.tar.gz
+- SOL-fold1-base-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold1-base-binidx-5-ms-1234-ds-1234.tar.gz
+- SOL-fold2-base-binidx-0-ms-1234-ds-2345.tar.gz
+- SOL-fold2-base-binidx-3-ms-1234-ds-1234.tar.gz
+- SOL-fold2-base-binidx-5-ms-1234-ds-1234.tar.gz
+
 ## Small-BERT
 
 The following link pertains to Supervised Finetuning Experiments involving
@@ -171,6 +215,16 @@ The tar file contains all model artifacts (checkpoints, random-number generator
 states, optimizer states etc.), training logs (Tensorboard, MLFlow and Weights &
 Biases), and evaluation results, configuration files, run scripts, SLURM sbatch
 driver scripts, and any additional artifacts generated during the experiments.
+
+## NOTES
+
+- The hyperparameter search and finetuning scripts are based on Biogen's
+  codebases. As a result, the program design and many software development
+  choices were not based on our own preferences or recommended best practices.
+- As Base-BERT checkpoint files are very large, we have removed them and their
+  corresponding W&B artifact cache files from the compressed files. Users can
+  find the best cross-validated model checkpoints and their re-fitted variants,
+  used for testing, in their corresponding Zenodo records.
 
 ## Author
 
