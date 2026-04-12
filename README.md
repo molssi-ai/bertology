@@ -1,7 +1,5 @@
 # BERTology of Molecular Property Prediction
 
-**(Under Construction)**
-
 This repository provides complete access to all codebase and artifacts developed
 for the BERTology project (<https://arxiv.org/abs/2603.13627>), amounting to
 approximately 8TB. As such, we have organized the codebase and artifacts into a
@@ -168,13 +166,14 @@ Visual representations of data processing and standardization workflows:
 
 - Python 3.x
 - PyTorch
-- Hugging Face Transformers and Tokenizers
+- Hugging Face Transformers, Datasets, Accelerate and Tokenizers
 - RDKit
 - OpenEye toolkit (for SDF processing)
 - Dask (for parallel processing)
 - ChEMBL Structure Pipeline
 - Hydra (for configuration management)
 - Draw.io (optional, for viewing workflow diagrams)
+- PyTorch Lightning (for fine-tuning scripts)
 
 ## Citation
 
