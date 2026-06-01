@@ -28,6 +28,8 @@ bertology/
 │   ├── data_scripts/          # Data processing and preparation
 │   └── plot_scripts/          # Visualization and analysis scripts
 ├── drawio/                    # Workflow diagrams
+├── notebooks/                 # Jupyter notebooks for analysis and visualization
+│   └── moleculenet_problems/  # MoleculeNet curation analysis notebook and outputs
 └── links/                     # Links to external artifacts and datasets
 ```
 
@@ -120,6 +122,20 @@ Visual representations of data processing and standardization workflows:
 - `refitting_and_testing_experiments.md`: Links to artifacts generated from
   refitting and testing experiments, including models and testing results for
   Base-BERT, Small-BERT, and Tiny-BERT.
+
+### 5. Notebooks (`notebooks/`)
+
+Notebook-based analyses and exploratory workflows:
+
+#### MoleculeNet Problems (`moleculenet_problems/`)
+
+- **Purpose**: Inspect curation issues in the MoleculeNet benchmark dataset
+- **Notebook**: `moleculenet_bbbp.ipynb`
+- **Focus**:
+  1. Duplicate BBBP entries after SMILES canonicalization
+  2. Conflicting labels assigned to the same canonical structure
+  3. Invalid SMILES rows that fail RDKit parsing
+- **Outputs**: CSV summaries, duplicate/conflict structure grids, and per-molecule PNGs for conflicting entries
 
 ## Key Experiments
 
