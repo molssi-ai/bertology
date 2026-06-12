@@ -40,8 +40,6 @@ Click on the section titles below to expand.
 <details> <!-- Start Section 1. Data Scripts -->
 <summary><h3 style="display:inline-block">1. Data Scripts (`scripts/data_scripts/`)</h3></summary>
 
-Contains scripts for processing molecular data from various sources:
-
 #### ChEMBL Standardizer (`chembl-standardizer/`)
 
 - **Purpose**: Standardize SMILES strings using the ChEMBL Structure Pipeline
@@ -80,11 +78,10 @@ Contains scripts for processing molecular data from various sources:
   - `bpe_tokenizer_training.py`: Trains BPE tokenizer on SMILES data
 
 </details> <!-- End Section 1. Data Scripts -->
+Scripts for processing molecular data from various sources
 
 <details> <!-- Start Section 2. Plot Scripts -->
 <summary><h3  style="display:inline-block">2. Plot Scripts (`scripts/plot_scripts/`)</h3></summary>
-
-Visualization and analysis scripts:
 
 #### Pre-training Plots (`pretraining/`)
 
@@ -109,17 +106,17 @@ Visualization and analysis scripts:
 - Output: Performance plots for validation and test sets
 
 </details> <!-- End Section 2. Plot Scripts -->
+Visualization and analysis scripts
 
 <details> <!-- Start Section 3. Workflow Diagrams -->
 <summary><h3  style="display:inline-block">3. Workflow Diagrams (`drawio/`)</h3></summary>
-
-Visual representations of data processing and standardization workflows:
 
 - `chembl_std.drawio`: ChEMBL standardization pipeline
 - `pubchem_std.drawio`: PubChem standardization workflow
 - `data_corruption.drawio`: Data corruption and noise analysis
 
 </details> <!-- End Section 3. Workflow Diagrams -->
+Draw.io diagrams illustrating data processing and analysis workflows
 
 <details> <!-- Start Section 4. Links -->
 <summary><h3  style="display:inline-block">4. Links (`links/`)</h3></summary>
@@ -136,11 +133,10 @@ Visual representations of data processing and standardization workflows:
   Base-BERT, Small-BERT, and Tiny-BERT.
 
 </details> <!-- End Section 4. Links -->
+Visual representations of data processing and standardization workflows
 
 <details> <!-- Start Section 5. Notebooks -->
 <summary><h3  style="display:inline-block">5. Notebooks (`notebooks/`)</h3></summary>
-
-Notebook-based analyses and exploratory workflows:
 
 #### MoleculeNet Problems (`moleculenet_problems/`)
 
@@ -153,6 +149,7 @@ Notebook-based analyses and exploratory workflows:
 - **Outputs**: CSV summaries, duplicate/conflict structure grids, and per-molecule PNGs for conflicting entries
 
 </details> <!-- End Section 5. Notebooks -->
+Notebook-based analyses and exploratory workflows
 
 ## Key Experiments
 
