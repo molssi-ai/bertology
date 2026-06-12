@@ -35,7 +35,10 @@ bertology/
 
 ## Main Components
 
-### 1. Data Scripts (`scripts/data_scripts/`)
+Click on the section titles below to expand.
+
+<details> <!-- Start Section 1. Data Scripts -->
+<summary><h3 style="display:inline-block">1. Data Scripts (`scripts/data_scripts/`)</h3></summary>
 
 Contains scripts for processing molecular data from various sources:
 
@@ -76,7 +79,10 @@ Contains scripts for processing molecular data from various sources:
 - **Scripts**:
   - `bpe_tokenizer_training.py`: Trains BPE tokenizer on SMILES data
 
-### 2. Plot Scripts (`scripts/plot_scripts/`)
+</details> <!-- End Section 1. Data Scripts -->
+
+<details> <!-- Start Section 2. Plot Scripts -->
+<summary><h3  style="display:inline-block">2. Plot Scripts (`scripts/plot_scripts/`)</h3></summary>
 
 Visualization and analysis scripts:
 
@@ -102,7 +108,10 @@ Visualization and analysis scripts:
 - Scripts: `perf_plotter.py`
 - Output: Performance plots for validation and test sets
 
-### 3. Workflow Diagrams (`drawio/`)
+</details> <!-- End Section 2. Plot Scripts -->
+
+<details> <!-- Start Section 3. Workflow Diagrams -->
+<summary><h3  style="display:inline-block">3. Workflow Diagrams (`drawio/`)</h3></summary>
 
 Visual representations of data processing and standardization workflows:
 
@@ -110,7 +119,10 @@ Visual representations of data processing and standardization workflows:
 - `pubchem_std.drawio`: PubChem standardization workflow
 - `data_corruption.drawio`: Data corruption and noise analysis
 
-### 4. Links (`links/`)
+</details> <!-- End Section 3. Workflow Diagrams -->
+
+<details> <!-- Start Section 4. Links -->
+<summary><h3  style="display:inline-block">4. Links (`links/`)</h3></summary>
 
 - `randomness_experiments.md`: Links to external artifacts on Zenodo for randomness studies
 - `data_and_model_size_experiments.md`: Links to datasets, models, and evaluation results for dataset and model size effects
@@ -123,7 +135,10 @@ Visual representations of data processing and standardization workflows:
   refitting and testing experiments, including models and testing results for
   Base-BERT, Small-BERT, and Tiny-BERT.
 
-### 5. Notebooks (`notebooks/`)
+</details> <!-- End Section 4. Links -->
+
+<details> <!-- Start Section 5. Notebooks -->
+<summary><h3  style="display:inline-block">5. Notebooks (`notebooks/`)</h3></summary>
 
 Notebook-based analyses and exploratory workflows:
 
@@ -136,6 +151,8 @@ Notebook-based analyses and exploratory workflows:
   2. Conflicting labels assigned to the same canonical structure
   3. Invalid SMILES rows that fail RDKit parsing
 - **Outputs**: CSV summaries, duplicate/conflict structure grids, and per-molecule PNGs for conflicting entries
+
+</details> <!-- End Section 5. Notebooks -->
 
 ## Key Experiments
 
