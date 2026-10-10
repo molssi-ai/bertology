@@ -1,0 +1,17 @@
+% Compact letter display for RLM.
+% Methods sharing a letter are not significantly different
+% (Tukey HSD on the repeated-measures error term, FWER 0.05).
+\begin{tabular}{lcccc}
+\toprule
+Method & MAE & RMSE & Pearson R & R$^2$ \\
+\midrule
+BERT-Base & a & a & a & a \\
+SVM & b & b & ab & ab \\
+LGBM & bc & bc & bc & bc \\
+BERT-Small & bc & cd & bc & cd \\
+LASSO & cd & de & cd & de \\
+XGB & de & de & d & de \\
+RF & e & e & d & e \\
+BERT-Tiny & f & f & e & f \\
+\bottomrule
+\end{tabular}
