@@ -1,0 +1,17 @@
+% Compact letter display for SOL.
+% Methods sharing a letter are not significantly different
+% (Tukey HSD on the repeated-measures error term, FWER 0.05).
+\begin{tabular}{lcccc}
+\toprule
+Method & MAE & RMSE & Pearson R & R$^2$ \\
+\midrule
+BERT-Base & a & a & a & a \\
+BERT-Small & ab & a & ab & a \\
+LGBM & abc & ab & abc & ab \\
+XGB & bc & bc & cd & bc \\
+SVM & bc & ab & abc & ab \\
+RF & bc & bc & bc & bc \\
+BERT-Tiny & bc & c & d & c \\
+LASSO & c & ab & bc & ab \\
+\bottomrule
+\end{tabular}

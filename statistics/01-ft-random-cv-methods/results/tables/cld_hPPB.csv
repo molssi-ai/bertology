@@ -1,0 +1,9 @@
+method,mae,rmse,pearson,r2
+SVM,a,a,a,a
+LGBM,ab,ab,a,ab
+BERT-Base,ab,ab,a,ab
+LASSO,b,bc,ab,abc
+XGB,bc,abc,ab,abc
+BERT-Small,bc,bc,ab,bc
+RF,c,c,b,c
+BERT-Tiny,d,d,c,d

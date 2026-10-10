@@ -1,0 +1,17 @@
+% Compact letter display for MDR1_ER.
+% Methods sharing a letter are not significantly different
+% (Tukey HSD on the repeated-measures error term, FWER 0.05).
+\begin{tabular}{lcccc}
+\toprule
+Method & MAE & RMSE & Pearson R & R$^2$ \\
+\midrule
+BERT-Base & a & ab & a & ab \\
+SVM & a & a & a & a \\
+LGBM & ab & ab & a & ab \\
+BERT-Small & ab & bc & ab & bc \\
+XGB & bc & bc & ab & bc \\
+LASSO & bc & bc & ab & abc \\
+RF & cd & c & b & c \\
+BERT-Tiny & d & d & c & d \\
+\bottomrule
+\end{tabular}
